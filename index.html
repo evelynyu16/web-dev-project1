@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Fanchao Yu" />
+    <meta
+      name="description"
+      content="Personal homepage of Fanchao Yu: projects, background, and contact."
+    />
+    <link rel="icon" href="./assets/icons/favicon.ico" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Fanchao Yu | Home</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="nav__logo" href="./index.html">Fanchao Yu</a>
+        <div class="nav__links">
+        <a class="nav__link" href="./projects.html">Projects</a>
+        <a class="nav__link" href="./about.html">About</a>
+        <a class="nav__link" href="./ai.html">AI Page</a>
+</div>
+
+      </nav>
+    </header>
+
+   <main class="container">
+  <section class="hero">
+    <img
+      class="hero__img"
+      src="./assets/img/headshot.JPG"
+      alt="Headshot of Fanchao Yu (Evelyn)"
+    />
+
+    <h1 class="hero__title">Hi, I’m Fanchao Yu. Everyone calls me Evelyn haha!</h1>
+
+    <p class="hero__subtitle">
+      I am a CS master student building thoughtful software products that serve people. Here are a
+      few things I’m proud of:
+    </p>
+
+    <button class="btn" id="surpriseBtn" type="button">
+      Click for a tiny surprise ✨
+    </button>
+
+    <p class="note" id="surpriseOutput" aria-live="polite"></p>
+  </section>
+<section class="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+    <a class="project-card" href="./projects.html#canvas">
+      <img
+        class="project-card__img"
+        src="./assets/img/canvas.png"
+        alt="Screenshot of a Java drawing canvas application"
+      />
+      <h3 class="project-card__title">Java Drawing Canvas</h3>
+      <p class="project-card__desc">
+        A Java drawing app where users can sketch shapes and lines on a canvas.
+      </p>
+    </a>
+
+    <a class="project-card" href="./projects.html#simpath">
+      <img
+        class="project-card__img"
+        src="./assets/img/simpath.jpg"
+        alt="SimPath project preview image"
+      />
+      <h3 class="project-card__title">SimPath</h3>
+      <p class="project-card__desc">
+        An AI-driven training concept that simulates scenarios and provides guided feedback.
+      </p>
+    </a>
+
+    <a class="project-card" href="./projects.html#supplements">
+      <img
+        class="project-card__img"
+        src="./assets/img/supplements.png"
+        alt="Screenshot of a health supplements website"
+      />
+      <h3 class="project-card__title">Supplements Website</h3>
+      <p class="project-card__desc">
+        A clean product website for browsing supplements with a modern layout.
+      </p>
+    </a>
+  </div>
+</section>
+
+</main>
+
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Fanchao</p>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

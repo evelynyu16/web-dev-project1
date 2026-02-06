@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Fanchao Yu" />
+    <meta
+      name="description"
+      content="Projects by Fanchao Yu (Evelyn): Java Drawing Canvas, SimPath, and a Supplements Website."
+    />
+    <link rel="icon" href="./assets/icons/favicon.ico" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Fanchao Yu | Projects</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="nav__logo" href="./index.html">Fanchao Yu</a>
+        <div class="nav__links">
+          <a class="nav__link" href="./projects.html">Projects</a>
+          <a class="nav__link" href="./ai.html">AI Page</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Projects</h1>
+      <p class="page-subtitle">
+        A few projects I’ve built to practice software design, product thinking, and user-focused
+        interfaces.
+      </p>
+
+      <section class="project-detail" id="canvas">
+        <div class="project-detail__media">
+          <img
+            src="./assets/img/canvas.png"
+            alt="Screenshot of a Java drawing canvas application"
+          />
+        </div>
+
+        <div class="project-detail__content">
+          <h2>Java Drawing Canvas</h2>
+          <p>
+            A Java desktop drawing app where users can sketch shapes and lines on a canvas. Built to
+            practice clean UI event handling and organization.
+          </p>
+          <ul class="project-bullets">
+            <li><strong>Tech:</strong> Java, Swing/AWT</li>
+            <li><strong>Features:</strong> drawing tools, clear/reset, basic interactions</li>
+            <li><strong>Focus:</strong> code structure + UI events</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="project-detail" id="simpath">
+        <div class="project-detail__media">
+          <img src="./assets/img/simpath.jpg" alt="SimPath project preview image" />
+        </div>
+
+        <div class="project-detail__content">
+          <h2>SimPath</h2>
+          <p>
+            An AI-driven training concept that simulates scenarios and provides guided feedback.
+            Designed around turning complex ideas into a clear learning journey.
+          </p>
+          <ul class="project-bullets">
+            <li><strong>Focus:</strong> product design + learning flow</li>
+            <li><strong>Idea:</strong> scenario practice, rubric-based feedback, progression path</li>
+            <li><strong>What I learned:</strong> translating vision into user stories</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="project-detail" id="supplements">
+        <div class="project-detail__media">
+          <img
+            src="./assets/img/supplements.png"
+            alt="Screenshot of a health supplements website"
+          />
+        </div>
+
+        <div class="project-detail__content">
+          <h2>Supplements Website</h2>
+          <p>
+            A responsive product website concept for browsing supplements, emphasizing clean layout,
+            spacing, and clarity.
+          </p>
+          <ul class="project-bullets">
+            <li><strong>Tech:</strong> HTML, CSS</li>
+            <li><strong>Features:</strong> modern cards, simple navigation, product highlights</li>
+            <li><strong>Focus:</strong> visual hierarchy + responsive layout</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Fanchao Yu</p>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
